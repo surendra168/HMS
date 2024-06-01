@@ -1,0 +1,57 @@
+.diagnosisWrapper {
+  text-align: center;
+}
+.diagnosisContainer {
+  text-align: left;
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formComponent {
+  margin-bottom: 20px;
+}
+
+.formComponent textarea {
+  width: 500px;
+  height: 230px;
+}
+
+.diagnosisContainer label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.diagnosisContainer .submit {
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px;
+  width: 200px;
+  transition: background-color 0.3s ease;
+  margin: 0 150px;
+}
+
+.submit:hover {
+  background-color: #00578b;
+}

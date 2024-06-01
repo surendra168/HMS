@@ -1,0 +1,44 @@
+/* .patientProfile {
+  width: 100%;
+  margin: 20px; 
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000; 
+} */
+
+.appointmentTablePat table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.appointmentTablePat td {
+  border: 1px solid #000000;
+  text-align: center;
+  /* padding: 10px; */
+  /* width: auto; Allow the column width to adjust based on content */
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+.appointmentTablePat th {
+  background-color: #f2f2f2;
+  border: 1px solid #000000;
+}
+
+.viewButton {
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+  transition: background-color 0.3s ease;
+  margin: 0 10px;
+}
+
+.viewButton:hover {
+  background-color: #00578b;
+}

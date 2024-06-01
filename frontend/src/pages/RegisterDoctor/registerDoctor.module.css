@@ -1,0 +1,58 @@
+.registerWrapper {
+  text-align: center;
+}
+.registerContainer {
+  text-align: left;
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formComponent {
+  width: 25rem;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+.registerContainer label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.registerContainer button {
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+  transition: background-color 0.3s ease;
+  margin: 0 50px;
+}
+
+button:hover {
+  background-color: #00578b;
+}

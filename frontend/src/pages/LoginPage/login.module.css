@@ -1,0 +1,78 @@
+.loginContainer {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.formComponent {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  width: 10%;
+  margin-left: 100px; /* Adjust the spacing between checkbox and text as needed */
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.loginButton {
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px;
+  width: 80%;
+  margin-left: 35px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00578b;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer a {
+  color: black; /* Default text color */
+  text-decoration: none; /* Remove default underline */
+  font-weight: 500;
+  transition: color 0.3s, text-decoration 0.3s; /* Add transition for smooth effect */
+}
+
+.loginContainer a:hover {
+  color: black; /* Text color on hover */
+  text-decoration: underline; /* Underline on hover */
+}

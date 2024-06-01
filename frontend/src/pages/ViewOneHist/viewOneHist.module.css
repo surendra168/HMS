@@ -1,0 +1,29 @@
+.patientProfile {
+  width: 100%;
+  margin: 20px; /* Adjust as needed */
+  /* border-bottom: 2px solid #000000; */
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000; /* Add a thicker border to the last row */
+}
+
+.patientProfile table {
+  width: 50%;
+  /* border-collapse: collapse; */
+}
+
+.patientProfile td {
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  width: auto;
+  max-width: 150px; /* Set the maximum width for each column */
+  word-wrap: break-word;
+}
+
+.patientProfile .heading {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+/* tr:last-child {
+  border-bottom: 2px solid #000; 
+} */

@@ -1,0 +1,51 @@
+.settingWrapper {
+  text-align: left;
+}
+.settingWrapper h3 {
+  margin: 25px;
+}
+.settingContainer {
+  text-align: left;
+  max-width: 500px;
+  margin: 25px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formComponent {
+  width: 25rem;
+  margin-bottom: 20px;
+}
+
+.settingContainer label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.settingContainer button {
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px;
+  width: 200px;
+  transition: background-color 0.3s ease;
+  margin: 0 130px;
+}
+
+button:hover {
+  background-color: #00578b;
+}
